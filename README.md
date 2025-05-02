@@ -79,6 +79,8 @@ The model showed strong performance in both validation and test stages:
 
 The model exhibited minimal false positives and was efficient in detecting critical objects like helmets, vests, and persons while maintaining high precision.
 
+![PPE Detection](images/f1scorewithmatrix.png)
+
 ---
 
 ## Conclusion:
