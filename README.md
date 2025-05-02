@@ -27,6 +27,9 @@ The OpenMV RT1062 camera is a small, low-power microcontroller board that simpli
 ### 2. Edge Impulse for Deployment:
 Edge Impulse is an embedded machine learning platform supporting the MLOps pipeline for edge devices, including data collection, signal processing, model training, testing, and deployment.
 
+![EdgeImpulseWorking](images/edgeimpulseworking.png)
+Fig1. Overview of Edge Impulse (STMicroelectronics)
+
 ---
 
 ## Data Acquisition:
@@ -80,7 +83,10 @@ The model showed strong performance in both validation and test stages:
 The model exhibited minimal false positives and was efficient in detecting critical objects like helmets, vests, and persons while maintaining high precision.
 
 ![F1score](images/f1scorewithmatrix.png)
+Fig2. Confusion Matrix with F1 Score
+
 ![Accuracy](images/accuracytest.png)
+Fig3. Test Accuracy
 
 ---
 
